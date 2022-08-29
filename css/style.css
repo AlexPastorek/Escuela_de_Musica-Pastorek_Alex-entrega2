@@ -1,3 +1,10 @@
+.header img{
+    animation-duration: 3s;
+    animation-name: logo;
+    animation-iteration-count:initial;
+    
+}
+
 .slide{
     margin-top: 10px;
 }
@@ -119,4 +126,81 @@ width: 65vh;
 .redessociales img{
  width: 20px;
  padding: 0 px 3px 0px 3px;
+}
+
+/* animacion logo */
+@keyframes logo{
+    0%{
+       transform:  scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale (1);
+    }
+}
+
+/* responsive */
+
+/* tablet */
+@media (min-width:768px){
+    .carousel-caption h5{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .carousel-caption button{
+       margin-top: 20px;
+        font-size: 14px;
+        
+    }
+    .videop h2{
+        font-size: 16px;
+        padding-top: 5px;
+        
+    }
+    .videop p{
+        font-size: 14px;
+    }
+    .videop iframe{
+        width: 95vw;
+        height: 45vh;
+    }
+    .videop button{
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+}
+.musichelp img{
+    width: 50vw;
+    height: auto;
+    
+}
+.musichelp p{
+    
+    font-size: 14px;
+}
+.musichelp h2{
+    font-size: 16px;
+   
+}
+.pagar img{
+    width:80px;
+}
+.pagar h2{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    
+}
+.pagar button{
+    font-size: 14px;
+    color: white;
+}
+.footer p{
+    font-size: 14px;
+}
+.redessociales img{
+    width: 45px;
 }
