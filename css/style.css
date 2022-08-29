@@ -91,3 +91,32 @@ width: 65vh;
     font-size: 8px;
     color: white;
 }
+/* pagina tutoriales */
+.slider{
+    margin-top: 10px;
+}
+.slider img{
+    width: 65vh;
+}
+.videost{
+    margin-top: 10px;
+    text-align: center;
+}
+.videost iframe{
+    width: 95vw;
+    height: auto;
+}
+.videost h2{
+    font-size: 12px;
+    background-color:rgb(152, 150, 240);
+    border-radius:20px;
+    padding: 5px 0px 5px 0px;
+    color: white;
+}
+.redessociales{
+    text-align: center;
+}
+.redessociales img{
+ width: 20px;
+ padding: 0 px 3px 0px 3px;
+}
