@@ -1,206 +1,374 @@
-.header img{
+.header img {
     animation-duration: 3s;
     animation-name: logo;
-    animation-iteration-count:initial;
-    
+    animation-iteration-count: initial;
+
 }
 
-.slide{
+.slide {
     margin-top: 10px;
 }
-.slide img{
-width: 65vh;
+
+.slide img {
+    width: 65vh;
 }
-.carousel-caption h5{
+
+.carousel-caption h5 {
     font-size: 8px;
     color: white;
     font-weight: 600;
 }
-.carousel-caption button{
+
+.carousel-caption button {
     font-size: 6px;
     color: white;
-    
+
 }
-.videop{
-    background-color:  rgb(152, 150, 240);
+
+.videop {
+    background-color: rgb(152, 150, 240);
     margin-top: 10px;
     text-align: center;
     padding: 10px;
 }
-.videop h2{
+
+.videop h2 {
     font-size: 12px;
     padding-top: 5px;
     color: white;
 }
-.videop p{
+
+.videop p {
     color: white;
     font-size: 8px;
 }
-.videop iframe{
+
+.videop iframe {
     width: 95vw;
     height: auto;
 }
-.videop button{
+
+.videop button {
     font-size: 6px;
     color: white;
-    
+
 }
-.musichelp{
+.row{
+    flex-direction: column-reverse
+}
+.musichelp {
     margin-top: 10px;
     padding: 10px;
-    background-color:  rgb(152, 150, 240);
+    background-color: rgb(152, 150, 240);
     text-align: center;
 }
-.musichelp img{
+
+.musichelp img {
     width: 65vw;
     height: auto;
-    
+
 }
-.musichelp p{
+
+.musichelp p {
     color: white;
     font-size: 8px;
 }
-.musichelp h2{
+
+.musichelp h2 {
     font-size: 12px;
     padding-top: 5px;
     color: white;
 }
-.pagar{
+
+.pagar {
     text-align: center;
     background-color: rgb(152, 150, 240);
     margin-top: 10px;
 }
-.pagar img{
-    width:45px;
+
+.pagar img {
+    width: 45px;
     height: auto;
     margin: 0 auto;
     padding: 5px;
 }
-.pagar h2{
+
+.pagar h2 {
     font-size: 12px;
     padding-top: 5px;
     font-size: 12px;
     padding-top: 5px;
-    
+
 }
-.pagar button{
+
+.pagar button {
     font-size: 6px;
     color: white;
 }
-.fotost1{
+
+.fotost1 {
     text-align: center;
-    
+
 }
-.footer{
+
+.footer {
     background-color: black;
 }
-.footer p{
+
+.footer p {
     font-size: 8px;
     color: white;
 }
+
 /* pagina tutoriales */
-.slider{
+.slider {
     margin-top: 10px;
 }
-.slider img{
+
+.slider img {
     width: 65vh;
 }
-.videost{
+
+.videost1  {
     margin-top: 10px;
     text-align: center;
 }
-.videost iframe{
-    width: 95vw;
+
+.videost iframe {
+    width: 320px;
     height: auto;
 }
-.videost h2{
+
+.videost h2 {
     font-size: 12px;
-    background-color:rgb(152, 150, 240);
-    border-radius:20px;
+    background-color: rgb(152, 150, 240);
+    border-radius: 20px;
     padding: 5px 0px 5px 0px;
     color: white;
 }
-.redessociales{
+
+.redessociales {
     text-align: center;
 }
-.redessociales img{
- width: 20px;
- padding: 0 px 3px 0px 3px;
+
+.redessociales img {
+    width: 20px;
+    padding: 0 px 3px 0px 3px;
 }
 
 /* animacion logo */
-@keyframes logo{
-    0%{
-       transform:  scale(1);
+@keyframes logo {
+    0% {
+        transform: scale(1);
     }
-    25%{
+
+    25% {
         transform: scale(1.1);
     }
-    100%{
+
+    100% {
         transform: scale (1);
     }
 }
 
 /* responsive */
 
+
 /* tablet */
-@media (min-width:768px){
-    .carousel-caption h5{
+@media (min-width:768px) {
+    .carousel-caption h5 {
         font-size: 16px;
         margin-top: 20px;
     }
-    .carousel-caption button{
-       margin-top: 20px;
+
+    .carousel-caption button {
+        margin-top: 20px;
         font-size: 14px;
-        
+
     }
-    .videop h2{
+
+    .videop h2 {
         font-size: 16px;
         padding-top: 5px;
-        
+
+
     }
-    .videop p{
+
+    .videop p {
         font-size: 14px;
     }
-    .videop iframe{
+
+    .videop iframe {
         width: 95vw;
         height: 45vh;
     }
-    .videop button{
+
+    .videop button {
         font-size: 14px;
         padding: 10px;
-        
+
+    }
+
+.row{
+    flex-direction: column-reverse;
+    align-items: center;    
+}
+    .musichelp img {
+        width: 30vw;
+        height: auto;
+
+    }
+
+    .musichelp p {
+
+        font-size: 14px;
+    }
+
+    .musichelp h2 {
+        font-size: 16px;
+
+    }
+
+    .pagar img {
+        width: 80px;
+    }
+
+    .pagar h2 {
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+
+    }
+
+    .pagar button {
+        font-size: 14px;
+        color: white;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .redessociales img {
+        width: 45px;
+    }
+
+    .videost iframe {
+        width: 95vw;
+        height: 30vh;
+    }
+
+    .videost h2 {
+        font-size: 16px;
+        text-align: center;
     }
 }
-.musichelp img{
-    width: 50vw;
-    height: auto;
+
+/* escritorio */
+@media (min-width:1024px) {
+
+    .header img {
+        width: 200px;
+
+    }
+
+    .carousel-caption h5 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .carousel-caption button {
+        margin-top: 20px;
+        font-size: 24px;
+
+    }
+
+    .videop h2 {
+        font-size: 30px;
+        padding-top: 5px;
     
+
+
+    }
+
+    .videop p {
+        font-size: 24px;
+    }
+
+    .videop iframe {
+        width: 95vw;
+        height: 65vh;
+    }
+
+    .videop button {
+        font-size: 24px;
+        padding: 10px;
+
+    }
+
+ 
+
+ 
+    .musichelp img {
+        width: 35vw;
+        height: auto;
+
+    }
+
+    .musichelp p {
+
+        font-size: 24px;
+    }
+
+    .musichelp h2 {
+        font-size: 30px;
+
+    }
+
+    .pagar img {
+        width: 120px;
+        padding: 10px 25px 0px 40px;
+    }
+
+    .pagar h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+
+    }
+
+    .pagar button {
+        font-size: 20px;
+        color: white;
+    }
+
+    .footer p {
+        font-size: 20px;
+    }
+
+    .redessociales img {
+        width: 45px;
+    }
+.videost1{
+    display: flex;
+    justify-content: space-between
 }
-.musichelp p{
-    
-    font-size: 14px;
+.videost2{
+    display: flex;
+    justify-content: space-between
 }
-.musichelp h2{
-    font-size: 16px;
-   
-}
-.pagar img{
-    width:80px;
-}
-.pagar h2{
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-    
-}
-.pagar button{
-    font-size: 14px;
-    color: white;
-}
-.footer p{
-    font-size: 14px;
-}
-.redessociales img{
-    width: 45px;
+.videost iframe {
+
+        width: 40vw;
+        height: 40vh;
+
+        
+    }
+    .videost{
+       padding: 30px ;
+    }
+
+    .videost1 .videost2 h2 {
+        font-size: 30px;
+    }
 }
