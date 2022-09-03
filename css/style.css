@@ -4,11 +4,13 @@
     animation-iteration-count: initial;
 
 }
+
 .navbar-toggler-icon {
     width: 20px;
     height: 20px;
-    
+
 }
+
 .nav-item a {
     font-size: 8px;
 }
@@ -62,7 +64,7 @@
 
 }
 
-.row {
+.rowr {
     flex-direction: column-reverse
 }
 
@@ -166,6 +168,45 @@
     padding: 0 px 3px 0px 3px;
 }
 
+/* pagina plan de estudio */
+h1 {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+.tabla {
+    font-size: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+    border: .2px black solid;
+    margin-top: 2px;
+}
+
+.tabla_fila {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.fila {
+    font-size: 8px;
+    background-color: rgba(169, 93, 240, 0.712);
+    color: white;
+    font-weight: 500;
+    border: .2px black solid;
+
+}
+.teens{
+    margin-top: 5px;
+}
+
 /* animacion logo */
 @keyframes logo {
     0% {
@@ -223,7 +264,7 @@
 
     }
 
-    .row {
+    .rowr {
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -277,6 +318,23 @@
         font-size: 16px;
         text-align: center;
     }
+    /* plan estudio */
+    h1 {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .tabla {
+        font-size: 15px;
+        padding: 1px;
+        
+    }
+    .fila {
+        font-size: 15px;
+        padding: 1px;
+}
+.footer{
+    margin-top: 5px;
+}
 }
 
 /* escritorio */
@@ -286,9 +344,11 @@
         width: 200px;
 
     }
-    .nav-item a{
+
+    .nav-item a {
         font-size: 16px;
     }
+
     .carousel-caption h5 {
         font-size: 30px;
         margin-top: 20px;
@@ -301,7 +361,7 @@
     }
 
     .videop h2 {
-        font-size: 30px;
+        font-size: 24px;
         padding-top: 5px;
 
 
@@ -309,7 +369,8 @@
     }
 
     .videop p {
-        font-size: 24px;
+        font-size: 18px;
+        padding: 25px;
     }
 
     .videop iframe {
@@ -318,7 +379,7 @@
     }
 
     .videop button {
-        font-size: 24px;
+        font-size: 18px;
         padding: 10px;
 
     }
@@ -334,11 +395,11 @@
 
     .musichelp p {
 
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .musichelp h2 {
-        font-size: 30px;
+        font-size: 24px;
 
     }
 
@@ -348,19 +409,19 @@
     }
 
     .pagar h2 {
-        font-size: 30px;
+        font-size: 24px;
         color: white;
         font-weight: 600;
 
     }
 
     .pagar button {
-        font-size: 20px;
+        font-size: 18px;
         color: white;
     }
 
     .footer p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .redessociales img {
@@ -392,4 +453,24 @@
     .videost1 .videost2 h2 {
         font-size: 30px;
     }
+    /* plan de estudio */
+    h1 {
+        font-size: 24px;
+        padding: 12px;
+    }
+    .tabla {
+        font-size: 18px;
+        padding: 1px;
+        
+    }
+    .fila {
+        font-size: 18px;
+        padding: 1px;
+}
+.teens{
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 10px;
+}
 }
