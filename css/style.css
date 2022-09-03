@@ -4,6 +4,14 @@
     animation-iteration-count: initial;
 
 }
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    
+}
+.nav-item a {
+    font-size: 8px;
+}
 
 .slide {
     margin-top: 10px;
@@ -53,9 +61,11 @@
     color: white;
 
 }
-.row{
+
+.row {
     flex-direction: column-reverse
 }
+
 .musichelp {
     margin-top: 10px;
     padding: 10px;
@@ -129,7 +139,7 @@
     width: 65vh;
 }
 
-.videost1  {
+.videost1 {
     margin-top: 10px;
     text-align: center;
 }
@@ -181,6 +191,10 @@
         margin-top: 20px;
     }
 
+    .nav-item a {
+        font-size: 12px;
+    }
+
     .carousel-caption button {
         margin-top: 20px;
         font-size: 14px;
@@ -209,10 +223,11 @@
 
     }
 
-.row{
-    flex-direction: column-reverse;
-    align-items: center;    
-}
+    .row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .musichelp img {
         width: 30vw;
         height: auto;
@@ -271,7 +286,9 @@
         width: 200px;
 
     }
-
+    .nav-item a{
+        font-size: 16px;
+    }
     .carousel-caption h5 {
         font-size: 30px;
         margin-top: 20px;
@@ -286,7 +303,7 @@
     .videop h2 {
         font-size: 30px;
         padding-top: 5px;
-    
+
 
 
     }
@@ -306,9 +323,9 @@
 
     }
 
- 
 
- 
+
+
     .musichelp img {
         width: 35vw;
         height: auto;
@@ -349,23 +366,27 @@
     .redessociales img {
         width: 45px;
     }
-.videost1{
-    display: flex;
-    justify-content: space-between
-}
-.videost2{
-    display: flex;
-    justify-content: space-between
-}
-.videost iframe {
+
+    .videost1 {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .videost2 {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .videost iframe {
 
         width: 40vw;
         height: 40vh;
 
-        
+
     }
-    .videost{
-       padding: 30px ;
+
+    .videost {
+        padding: 30px;
     }
 
     .videost1 .videost2 h2 {
