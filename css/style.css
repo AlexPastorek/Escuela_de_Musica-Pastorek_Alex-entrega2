@@ -203,9 +203,93 @@ h1 {
     border: .2px black solid;
 
 }
-.teens{
+
+.teens {
     margin-top: 5px;
 }
+
+/* inscripciones */
+.videoi {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.videoi iframe {
+    width: 95vw;
+    height: auto;
+}
+.tituloi{
+    font-size: 12px;
+}
+.imageni img {
+    width: 95vw;
+    height: auto;
+    margin-top: 10px;
+}
+
+.tituloin {
+    background-color: rgb(195, 224, 62);
+}
+
+.inscripcionest {
+    background-color: rgb(152, 150, 240);
+}
+.inscripcionest h2{
+    font-size: 12px;
+}
+.inscripcionest p{
+    font-size: 8px;
+}
+.inscripcionest button {
+    color: white;
+    font-size: 8px;
+}
+
+.btnins {
+    font-size: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* contacto */
+.formulario{
+    background-color: blueviolet ;
+    
+}
+.formulario h5{
+    font-size: 12px;
+}
+.formulario input{
+    width: 70vw;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+.formulario label{
+    width: 80vw;
+    margin-top: 10px;
+    font-size: 8px;
+}
+.botonese input{
+    width: 25vw;
+}
+.formulario select{
+    width: 80vw;
+    margin-top: 10px;
+    font-size: 8px;
+}
+.mapa iframe{
+    width: 85vw;
+}
+.texto{
+    font-size: 8px;
+}
+
+
+
+
+/* fin formulario */
 
 /* animacion logo */
 @keyframes logo {
@@ -318,23 +402,111 @@ h1 {
         font-size: 16px;
         text-align: center;
     }
+
     /* plan estudio */
     h1 {
         font-size: 16px;
         padding: 12px;
     }
+
     .tabla {
         font-size: 15px;
         padding: 1px;
-        
+
     }
+
     .fila {
         font-size: 15px;
         padding: 1px;
-}
-.footer{
-    margin-top: 5px;
-}
+    }
+
+    .footer {
+        margin-top: 5px;
+    }
+
+    /* inscripciones */
+    .videoi {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .videoi iframe {
+        width: 95vw;
+        height: 30vh;
+    }
+
+    .imageni img {
+        width: 80vw;
+        height: auto;
+        margin-top: 10px;
+    }
+    .tituloi{
+        font-size: 18px;
+    }
+    .tituloin {
+        background-color: rgb(195, 224, 62);
+    }
+
+    .inscripcionest {
+        background-color: rgb(152, 150, 240);
+    }
+
+    .inscripcionest button {
+        color: white;
+        font-size: 8px;
+    }
+
+    .btnins {
+        font-size: 8px;
+        text-align: center;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .inscripcionest h2{
+        font-size: 16px;
+    }
+    .inscripcionest p{
+        font-size: 14px;
+    }
+    /* fin inscripciones */
+
+    /* formulario */
+    .formulario{
+        width: 85vw;
+        margin: auto;
+    }
+    .formulario h5{
+        font-size: 16px;
+    }
+    .formulario input{
+        width: 55vw;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .formulario label{
+        width: 80vw;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .botonese input{
+        width: 15vw;
+        padding: 3px;
+    }
+    .formulario select{
+        width: 80vw;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .mapa iframe{
+        width: 85vw;
+    }
+    .texto{
+        font-size: 12px;
+        width: 55vw;
+    }
+    
 }
 
 /* escritorio */
@@ -453,24 +625,122 @@ h1 {
     .videost1 .videost2 h2 {
         font-size: 30px;
     }
+
     /* plan de estudio */
     h1 {
         font-size: 24px;
         padding: 12px;
     }
+
     .tabla {
         font-size: 18px;
         padding: 1px;
-        
+
     }
+
     .fila {
         font-size: 18px;
         padding: 1px;
-}
-.teens{
-    margin-top: 20px;
-}
-.footer{
-    margin-top: 10px;
-}
+    }
+
+    .teens {
+        margin-top: 20px;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+    /* inscripciones */
+    .videoi {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .videoi iframe {
+        width: 95vw;
+        height: 70vh;
+    }
+
+    .imageni img {
+        width: 40vw;
+        height: auto;
+        margin-top: 10px;
+    }
+    .tituloi{
+        font-size: 28px;
+    }
+    .tituloin {
+        background-color: rgb(195, 224, 62);
+
+    }
+
+    .inscripcionest {
+        background-color: rgb(152, 150, 240);
+        justify-content: flex-end;
+        
+        
+    }
+
+    .inscripcionest button {
+        color: white;
+        font-size: 18px;
+    }
+
+    .btnins {
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .inscripcionest h2{
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .inscripcionest p{
+        font-size: 18px;
+    }
+    .inscr{
+        max-width: 1900px;
+        margin: 0px auto;
+        padding: 0px;
+        
+    }
+     /* formulario */
+     .formulario{
+        width: 85vw;
+        margin: auto;
+     }
+     .formulario h5{
+        font-size: 16px;
+        
+    }
+    .formulario input{
+        width: 50vw;
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding: 8px;
+    }
+    .formulario label{
+        width: 50vw;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .botonese input{
+        width: 10vw;
+        padding: 8px;
+    }
+    .formulario select{
+        width: 15vw;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .mapa iframe{
+        width: 85vw;
+    }
+    .texto{
+        font-size: 12px;
+        width: 50vw;
+    }
 }
